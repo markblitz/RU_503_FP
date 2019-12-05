@@ -12,6 +12,7 @@ public:
 	void Withdraw(double);	// steal money
 	double Check_Banalce() const;	// check what left
 
+	void Write_History(int input_type, double input_amount);
 	void Print_History() const;	// print history
 
 private:
